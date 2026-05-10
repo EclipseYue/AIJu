@@ -5,8 +5,11 @@
   "description": "AI textbook knowledge integration agent for hackathon delivery.",
   "type": "module",
   "scripts": {
+    "dev": "vite --config frontend/vite.config.js",
     "dev:frontend": "vite --config frontend/vite.config.js",
+    "build": "vite build --config frontend/vite.config.js",
     "build:frontend": "vite build --config frontend/vite.config.js",
+    "preview": "vite preview --config frontend/vite.config.js --host 0.0.0.0",
     "preview:frontend": "vite preview --config frontend/vite.config.js --host 0.0.0.0",
     "lint:frontend": "eslint frontend/src --ext .js,.jsx"
   },

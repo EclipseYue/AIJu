@@ -10,7 +10,7 @@ except ImportError:  # Allows parser smoke tests before requirements are install
     SettingsConfigDict = dict
 
 # Project root: the directory containing backend/ (i.e. the repo root).
-_PROJECT_ROOT = Path(__file__).resolve().parents[2]
+_PROJECT_ROOT = Path(__file__).resolve().parents[3]
 
 
 class Settings(BaseSettings):
@@ -60,7 +60,7 @@ class Settings(BaseSettings):
             "chroma_dir": getenv("CHROMA_DIR"),
             "database_path": getenv("DATABASE_PATH"),
         }
-        data.update({key: value for key, value in env_overrides.items() if value is not None})
+        data.update({key: value for key, value in env_overrides.items() if value is not None and value != ""})
         super().__init__(**data)
 
 
