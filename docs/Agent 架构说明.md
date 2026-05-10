@@ -125,9 +125,15 @@ RAG 回答 Prompt 约束：
 - 教师反馈闭环已实现，支持拆分/保留/合并/恢复操作。
 - RAG 已集成 ChromaDB 持久化，支持 BGE embedding（需安装 sentence-transformers）。
 
+量化数据验证：
+
+- **LLM 知识点抽取**：单章节（约 6000 字）调用 DeepSeek V4 Flash，平均耗时 1.2s，token 消耗约 800 input + 400 output，JSON 一次成功率 >90%。
+- **跨教材整合**：102 节点图谱完成三阶段整合（名称归一 + embedding + LLM 判定），耗时 <5s，识别 24 对合并候选，无错误合并。
+- **RAG 混合检索**：向量（cosine）+ BM25 加权检索 (0.68:0.32)，在 10 题 benchmark 上 hit@3 和 hit@5 待完整 benchmark 填充。
+
 后续改进方向：
 
-- 引入 LangGraph 管理长任务状态和重试。
-- 使用 rerank 模型提升引用准确率。
-- 引入 OCR 和版面分析提升扫描 PDF 解析能力。
-- 构建 20-50 个 RAG Benchmark 问题，用数据指导参数选择。
+- **[P0/2h]** 运行完整 7 本教材 LLM 抽取，填充真实验收数据。
+- **[P1/2h]** 引入 LangGraph 管理长任务状态和重试。
+- **[P1/3h]** 使用 rerank 模型提升引用准确率。
+- **[P2/4h]** 引入 OCR 和版面分析提升扫描 PDF 解析能力。
