@@ -221,7 +221,13 @@ class TextbookParserService:
         return {"total_pages": None, "chapters": chapters}
 
     def _parse_excel(self, path: Path, chapter_pattern: str) -> dict[str, Any]:
-        import pandas as pd
+        try:
+            import pandas as pd
+        except ImportError:
+            raise RuntimeError(
+                "Excel parsing requires pandas and openpyxl. "
+                "Install with: pip install pandas openpyxl"
+            )
 
         sheets = pd.read_excel(str(path), sheet_name=None)
         parts: list[str] = []
