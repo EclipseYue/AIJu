@@ -1,0 +1,2091 @@
+{
+  "original_chars": 6750,
+  "integrated_chars": 5683,
+  "compression_ratio": 0.8419,
+  "decisions": [
+    {
+      "decision_id": "merge_0d82bb30",
+      "action": "merge",
+      "affected_nodes": [
+        "node_40c87c24e3d2",
+        "node_60cf9c882436"
+      ],
+      "result_node": "node_40c87c24e3d2",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_192a04da",
+      "action": "merge",
+      "affected_nodes": [
+        "node_40c87c24e3d2",
+        "node_9bdf552e6438"
+      ],
+      "result_node": "node_40c87c24e3d2",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_affe0bdc",
+      "action": "merge",
+      "affected_nodes": [
+        "node_20d143e99598",
+        "node_2b1dee289ee9"
+      ],
+      "result_node": "node_20d143e99598",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_80812c2b",
+      "action": "merge",
+      "affected_nodes": [
+        "node_20d143e99598",
+        "node_3bf2985950f2"
+      ],
+      "result_node": "node_20d143e99598",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_10763c33",
+      "action": "merge",
+      "affected_nodes": [
+        "node_20d143e99598",
+        "node_347b97e581da"
+      ],
+      "result_node": "node_20d143e99598",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_99cb4b97",
+      "action": "merge",
+      "affected_nodes": [
+        "node_330542b8ae8d",
+        "node_c98c5e7bc01f"
+      ],
+      "result_node": "node_330542b8ae8d",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_a4d5df27",
+      "action": "merge",
+      "affected_nodes": [
+        "node_330542b8ae8d",
+        "node_781d0d9d3e07"
+      ],
+      "result_node": "node_330542b8ae8d",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_a85e918a",
+      "action": "merge",
+      "affected_nodes": [
+        "node_330542b8ae8d",
+        "node_30c866344082"
+      ],
+      "result_node": "node_330542b8ae8d",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_28e99f3b",
+      "action": "merge",
+      "affected_nodes": [
+        "node_2430136cf37b",
+        "node_d0e4ea0cb8a3"
+      ],
+      "result_node": "node_2430136cf37b",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_70e51089",
+      "action": "merge",
+      "affected_nodes": [
+        "node_e46e20e88b89",
+        "node_41ad5cb195f2"
+      ],
+      "result_node": "node_e46e20e88b89",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 1.0
+    },
+    {
+      "decision_id": "merge_b3264664",
+      "action": "merge",
+      "affected_nodes": [
+        "node_eb2293f5f3af",
+        "node_5b3d0abf4d6c"
+      ],
+      "result_node": "node_eb2293f5f3af",
+      "reason": "名称/定义语义相似（相似度 1.00），保留定义更完整的版本。",
+      "confidence": 0.9962963998182103
+    },
+    {
+      "decision_id": "merge_a320d52f",
+      "action": "merge",
+      "affected_nodes": [
+        "node_c5854ae71ccd",
+        "node_c23838f61b7c"
+      ],
+      "result_node": "node_c5854ae71ccd",
+      "reason": "名称/定义语义相似（相似度 0.98），保留定义更完整的版本。",
+      "confidence": 0.9836118442057922
+    },
+    {
+      "decision_id": "merge_45a1d516",
+      "action": "merge",
+      "affected_nodes": [
+        "node_141221d568c9",
+        "node_6fe70a5c6bbf"
+      ],
+      "result_node": "node_141221d568c9",
+      "reason": "名称/定义语义相似（相似度 0.98），保留定义更完整的版本。",
+      "confidence": 0.9763142822461831
+    },
+    {
+      "decision_id": "merge_6935e4f4",
+      "action": "merge",
+      "affected_nodes": [
+        "node_aae44f6618ca",
+        "node_2a93d74e8fa8"
+      ],
+      "result_node": "node_aae44f6618ca",
+      "reason": "名称/定义语义相似（相似度 0.97），保留定义更完整的版本。",
+      "confidence": 0.9744638689724587
+    },
+    {
+      "decision_id": "merge_ea1bca02",
+      "action": "merge",
+      "affected_nodes": [
+        "node_130acb1c2131",
+        "node_e3b2b1236046"
+      ],
+      "result_node": "node_130acb1c2131",
+      "reason": "名称/定义语义相似（相似度 0.97），保留定义更完整的版本。",
+      "confidence": 0.9653808716111622
+    },
+    {
+      "decision_id": "merge_8e338210",
+      "action": "merge",
+      "affected_nodes": [
+        "node_130acb1c2131",
+        "node_3fe26b9e9d94"
+      ],
+      "result_node": "node_130acb1c2131",
+      "reason": "名称/定义语义相似（相似度 0.96），保留定义更完整的版本。",
+      "confidence": 0.9589266029707683
+    },
+    {
+      "decision_id": "merge_4b917065",
+      "action": "merge",
+      "affected_nodes": [
+        "node_baf1e7226613",
+        "node_601fceafce5a"
+      ],
+      "result_node": "node_baf1e7226613",
+      "reason": "名称/定义语义相似（相似度 0.96），保留定义更完整的版本。",
+      "confidence": 0.9581402751608169
+    },
+    {
+      "decision_id": "merge_bf10698c",
+      "action": "merge",
+      "affected_nodes": [
+        "node_10579fd7dca7",
+        "node_130acb1c2131"
+      ],
+      "result_node": "node_130acb1c2131",
+      "reason": "名称/定义语义相似（相似度 0.95），保留定义更完整的版本。",
+      "confidence": 0.9474031958643483
+    },
+    {
+      "decision_id": "merge_2a132ee3",
+      "action": "merge",
+      "affected_nodes": [
+        "node_966b7389aaca",
+        "node_07118748125f"
+      ],
+      "result_node": "node_966b7389aaca",
+      "reason": "名称/定义语义相似（相似度 0.94），保留定义更完整的版本。",
+      "confidence": 0.942949360479023
+    },
+    {
+      "decision_id": "merge_a5ede17d",
+      "action": "merge",
+      "affected_nodes": [
+        "node_da2554815c94",
+        "node_4d91ef93dfbc"
+      ],
+      "result_node": "node_da2554815c94",
+      "reason": "名称/定义语义相似（相似度 0.91），保留定义更完整的版本。",
+      "confidence": 0.9072221051385092
+    },
+    {
+      "decision_id": "merge_5d7e3816",
+      "action": "merge",
+      "affected_nodes": [
+        "node_deb26cda4c56",
+        "node_5dd68fade30c"
+      ],
+      "result_node": "node_5dd68fade30c",
+      "reason": "名称/定义语义相似（相似度 0.90），保留定义更完整的版本。",
+      "confidence": 0.898807063527766
+    },
+    {
+      "decision_id": "merge_52b8e32f",
+      "action": "merge",
+      "affected_nodes": [
+        "node_5112d687a733",
+        "node_13f266ab0a47"
+      ],
+      "result_node": "node_5112d687a733",
+      "reason": "名称/定义语义相似（相似度 0.85），保留定义更完整的版本。",
+      "confidence": 0.8525371202334081
+    },
+    {
+      "decision_id": "merge_7b902bf2",
+      "action": "merge",
+      "affected_nodes": [
+        "node_2430136cf37b",
+        "node_e46e20e88b89"
+      ],
+      "result_node": "node_2430136cf37b",
+      "reason": "名称/定义语义相似（相似度 0.85），保留定义更完整的版本。",
+      "confidence": 0.8461538461538463
+    },
+    {
+      "decision_id": "merge_ca174295",
+      "action": "merge",
+      "affected_nodes": [
+        "node_223fe213af67",
+        "node_59bb94177c54"
+      ],
+      "result_node": "node_59bb94177c54",
+      "reason": "名称/定义语义相似（相似度 0.83），保留定义更完整的版本。",
+      "confidence": 0.8320502943378438
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "node_b2fd917fb8cb",
+        "name": "01_局部解剖学",
+        "definition": "01_局部解剖学.pdf，共 305 页，319164 字。",
+        "category": "教材",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": null,
+        "page": null,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_a0c4dc0a1867",
+        "name": "前言/目录",
+        "definition": "第 版 主 编 ｜ 钱亦华 张卫光 副主编 ｜ 张雅芳 丁 强 武 艳 局部解剖学 Regional Anatomy 国家卫生健康委员会“ 十四五” 规划教材 全 国 高 等 学 校 教 材 供基础、临床、预防、口腔医学类专业用 Regional Anatomy 主 编 | 钱亦华 张卫光 副 主 编 | 张雅芳 丁 强 武 艳 数 字 主 编 | 钱亦华 张卫光 数字副主编 | 丁 强 王启明 欧阳钧 · 北 京 · 局部解剖学 第 版 局部解剖学 Jubu Jiepoux",
+        "category": "章节",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_40c87c24e3d2",
+        "name": "图书在版编目",
+        "definition": "来自教材章节的知识点：图书在版编目。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 3,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_538e7de2a9bf",
+        "name": "第五轮全国高等医学院校",
+        "definition": "曾任中国解剖学会理事，教育部第四、第五轮全国高等医学院校 学科评估专家，中国高等教育协会基础医学教育分会常务委员，中国神 经科学学会神经退行性疾病分会委员。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_013d7ef051d6",
+        "name": "的颈部淋巴引",
+        "definition": "删减第一章的颞下颌关节内容等；将原第二章第六节的颈部淋巴引 流内容融入到了相关章节内，不作为单独一节，在形式上与全书其他章统一，在内容上提升了 颈部各局部结构的完整性；临床病例由原来的54 个增加到68 个，附有必要的影像检查图片， 使学生早期接触临床知识，实现基础与临床的融合。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_e99031edc32c",
+        "name": "局部解剖学的学习目的和学习方法",
+        "definition": "来自教材章节的知识点：局部解剖学的学习目的和学习方法。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_35020a0469b8",
+        "name": "人体的分部、层次和基本结构",
+        "definition": "来自教材章节的知识点：人体的分部、层次和基本结构。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_c473c6e29dd2",
+        "name": "解剖器械的准备和使用",
+        "definition": "来自教材章节的知识点：解剖器械的准备和使用。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_f38e13e29cbe",
+        "name": "解剖操作的基本技术和方法",
+        "definition": "来自教材章节的知识点：解剖操作的基本技术和方法。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_1c231a03b8ff",
+        "name": "解剖操作的具体要求",
+        "definition": "来自教材章节的知识点：解剖操作的具体要求。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_6ee47b426947",
+        "name": "第三章 胸部\b",
+        "definition": "第三章 胸部\b 第一节 概述\b�������������������������������������������������������������������63 一、 境界与分区\b�����������������������������������������������������������63 二、 表面解剖\b��������������������������������������������������������������63 第二节 胸壁\b����",
+        "category": "章节",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_f01c687ee6dd",
+        "name": "胸部\b",
+        "definition": "来自教材章节的知识点：胸部\b。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_20d143e99598",
+        "name": "境界与分区",
+        "definition": "来自教材章节的知识点：境界与分区。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 4,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_330542b8ae8d",
+        "name": "表面解剖",
+        "definition": "来自教材章节的知识点：表面解剖。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 4,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_2430136cf37b",
+        "name": "浅层结构",
+        "definition": "来自教材章节的知识点：浅层结构。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 2,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_fdd36d7a80be",
+        "name": "位置与分部",
+        "definition": "来自教材章节的知识点：位置与分部。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_c0df4943c753",
+        "name": "胸膜和胸膜腔",
+        "definition": "来自教材章节的知识点：胸膜和胸膜腔。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第三章 胸部\b",
+        "page": 15,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_a96626d34639",
+        "name": "第四章 腹部\b",
+        "definition": "第四章 腹部\b 第一节 概述\b�������������������������������������������������������������������92 一、 境界与分区\b�����������������������������������������������������������92 二、 表面解剖\b��������������������������������������������������������������92 第二节 腹前外侧壁\b�",
+        "category": "章节",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第四章 腹部\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_f1080543282a",
+        "name": "腹前外侧壁",
+        "definition": "来自教材章节的知识点：腹前外侧壁。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第四章 腹部\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_6221462f90be",
+        "name": "局部结构",
+        "definition": "来自教材章节的知识点：局部结构。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第四章 腹部\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_5b7ca8639898",
+        "name": "睾丸下降与腹股沟疝的关系",
+        "definition": "来自教材章节的知识点：睾丸下降与腹股沟疝的关系。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第四章 腹部\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_d57c38aede5d",
+        "name": "结肠上区",
+        "definition": "来自教材章节的知识点：结肠上区。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第四章 腹部\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_59bb94177c54",
+        "name": "食管腹部",
+        "definition": "来自教材章节的知识点：食管腹部。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第四章 腹部\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_864dd24318e9",
+        "name": "第五章 盆部与会阴\b",
+        "definition": "第五章 盆部与会阴\b 第一节 概述\b�����������������������������������������������������������������154 一、 境界与分区\b����������������������������������������������������������154 二、 表面解剖\b�������������������������������������������������������������154 第二节 盆部\b��",
+        "category": "章节",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_d537db9c36c1",
+        "name": "盆部与会阴\b",
+        "definition": "来自教材章节的知识点：盆部与会阴\b。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_ceb5a784d30c",
+        "name": "骨盆整体观",
+        "definition": "来自教材章节的知识点：骨盆整体观。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_5229daec7480",
+        "name": "盆壁肌",
+        "definition": "来自教材章节的知识点：盆壁肌。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_eb60925e1281",
+        "name": "盆筋膜及其间隙",
+        "definition": "来自教材章节的知识点：盆筋膜及其间隙。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_5dd68fade30c",
+        "name": "盆部的血管、淋巴引流和神经",
+        "definition": "来自教材章节的知识点：盆部的血管、淋巴引流和神经。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_0b1b9b4e1642",
+        "name": "盆腔内的腹膜配布",
+        "definition": "来自教材章节的知识点：盆腔内的腹膜配布。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第五章 盆部与会阴\b",
+        "page": 16,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_e36ed4bde859",
+        "name": "第六章 脊柱区\b",
+        "definition": "第六章 脊柱区\b 第一节 概述\b�����������������������������������������������������������������187 一、 境界与分区\b����������������������������������������������������������187 二、 表面解剖\b�������������������������������������������������������������187 第二节 层次结构\b��",
+        "category": "章节",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第六章 脊柱区\b",
+        "page": 17,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_804d99e43c6f",
+        "name": "脊柱区\b",
+        "definition": "来自教材章节的知识点：脊柱区\b。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第六章 脊柱区\b",
+        "page": 17,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_d2ce61f8763f",
+        "name": "深筋膜",
+        "definition": "来自教材章节的知识点：深筋膜。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第六章 脊柱区\b",
+        "page": 17,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_259fd537da23",
+        "name": "深部血管和神经",
+        "definition": "来自教材章节的知识点：深部血管和神经。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第六章 脊柱区\b",
+        "page": 17,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_55b53c30d183",
+        "name": "椎管内容物",
+        "definition": "来自教材章节的知识点：椎管内容物。",
+        "category": "核心概念",
+        "textbook_id": "book_aa8ecf95",
+        "textbook_title": "01_局部解剖学",
+        "chapter": "第六章 脊柱区\b",
+        "page": 17,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_45ec89271c55",
+        "name": "02_组织学与胚胎学",
+        "definition": "02_组织学与胚胎学.pdf，共 319 页，349706 字。",
+        "category": "教材",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": null,
+        "page": null,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_195c6f2fd431",
+        "name": "全文",
+        "definition": "国家卫生健康委员会“ 十四五” 规划教材 全 国 高 等 学 校 教 材 供基础、临床、预防、口腔医学类专业用 第 版 主 编 ｜ 李继承 邵淑娟 副主编 ｜ 李 和 周瑞祥 朱永红 组织学与胚胎学 Histology and Embryology Histology and Embryology 主 编 | 李继承 邵淑娟 副 主 编 | 李 和 周瑞祥 朱永红 数 字 主 编 | 李继承 曹 博 数字副主编 | 郝立宏 蒋杞英 李 静 · 北 京 · 组织学与胚胎学 第 ",
+        "category": "章节",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": "全文",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_eb2293f5f3af",
+        "name": "组织学",
+        "definition": "从事教学工作40 年，系浙江大学首届教学名师、宝钢优秀教师， 浙江省“组织学与胚胎学”精品课程负责人。",
+        "category": "核心概念",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": "全文",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_141221d568c9",
+        "name": "称为细胞外基质",
+        "definition": "在细胞之间，有一些非细胞形态 的物质，称为细胞外基质（extracellular matrix），也称细胞间质（intercellular substance）。",
+        "category": "核心概念",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": "全文",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_eec4f19f56b2",
+        "name": "参与构成细胞生存的微环境",
+        "definition": "细胞外基质由 细胞产生，参与构成细胞生存的微环境（microenvironment），起支持、联系、营养和保护细胞的作用，对 细胞的分化、运动、信息沟通也有重要影响。",
+        "category": "核心概念",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": "全文",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_c54fd9900b93",
+        "name": "统称为基本组织",
+        "definition": "组织有多种类型，一般将 其分为4 种，即上皮组织、结缔组织、肌组织和神经组织，统称为基本组织（primary tissue）。",
+        "category": "核心概念",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": "全文",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_5cbf9a49298e",
+        "name": "器官",
+        "definition": "一、 组织学的内容和意义 细胞是人体结构和功能的基本单位，是组织和器官的结构基础。",
+        "category": "核心概念",
+        "textbook_id": "book_bf090a58",
+        "textbook_title": "02_组织学与胚胎学",
+        "chapter": "全文",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_b15bb2e3b42d",
+        "name": "04_医学微生物学",
+        "definition": "04_医学微生物学.pdf，共 386 页，527069 字。",
+        "category": "教材",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": null,
+        "page": null,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_1808ba6a1b26",
+        "name": "前言/目录",
+        "definition": "Medical Microbiology 主 审 | 李 凡 徐志凯 主 编 | 郭晓奎 彭宜红 副 主 编 | 钟照华 吴兴安 范雄林 数 字 主 编 | 郭晓奎 数字副主编 | 王国庆 韦艳霞 · 北 京 · 医学微生物学 第 版 医学微生物学 Yixue Weishengwuxue 第10 版 主 编：郭晓奎 彭宜红 出版发行：人民卫生出版社（中继线010-59780011） 地 址：北京市朝阳区潘家园南里 19 号 邮 编：100021 E - mail：pmph @",
+        "category": "章节",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_b213581e3178",
+        "name": "微生物",
+        "definition": "深耕高等医学 教育教学、医学微生物学专业及科研等领域42 年并收获了诸多成果。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_5112d687a733",
+        "name": "真核细胞型微生物",
+        "definition": "1. 真核细胞型微生物（eukaryotic microorganisms） 这是最大的一类微生物。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_c3ab7490dd54",
+        "name": "真菌",
+        "definition": "本版教材仍沿用上一版的基本框架，在绪论、细菌篇、病毒篇、真菌篇及附录的基础上，增 加人体微生物群篇。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_5695b231cb3a",
+        "name": "原核细胞型微生物",
+        "definition": "2. 原核细胞型微生物（prokaryotic microorganisms） 这类微生物有细胞的基本结构，细胞器不完 整，仅有核糖体；细胞核分化程度低，为原始核质，呈裸露DNA 团块结构，无核膜和核仁，DNA 为遗传 物质。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_da2554815c94",
+        "name": "这类微生物可分为古菌",
+        "definition": "这类微生物可分为古菌（archaea）和细菌（bacteria）两大类。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "前言/目录",
+        "page": 1,
+        "frequency": 1,
+        "source_ids": [
+          "ch_001"
+        ]
+      },
+      {
+        "id": "node_6d8276c01901",
+        "name": "第一章 细菌的形态与结构学习目标",
+        "definition": "第一章 细菌的形态与结构 学习目标 1. 描述细菌的大小与形态。 2. \u0007列出细菌的基本结构，说明细菌各基本结构的特点及功能；比较革兰氏阳性菌和革兰氏阴性 菌细胞壁结构的异同。 3. \u0007列出细菌的特殊结构，说明各特殊结构的定义和特点；举例说明各特殊结构的功能或医学 意义。 4. 描述革兰氏染色的方法和结果，说明革兰氏染色的意义。 细菌具有特定的形态和结构，了解细菌的形态和结构对研究细菌的生物学特性、致病性和免疫 性，鉴别细菌以及对细菌感染性疾病的诊断和防治等均有重要意义。本章",
+        "category": "章节",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_41a7055af236",
+        "name": "细菌的形态与结构学习目标",
+        "definition": "来自教材章节的知识点：细菌的形态与结构学习目标。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_95561fd18e7e",
+        "name": "多数球菌",
+        "definition": "一、 球菌 多数球菌（coccus）直径在1μm 左右，外观呈圆球形或近似球形。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_d2a07ae1c658",
+        "name": "双球菌",
+        "definition": "1. 双球菌（diplococcus） 细菌细胞在一个平面分裂后，两个菌体粘连在一起成双排列，如脑膜 炎奈瑟菌。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_9a687d64a6f5",
+        "name": "链球菌",
+        "definition": "2. 链球菌（streptococcus） 细菌细胞在一个平面上分裂后，多个菌体连接成链状，如乙型溶血性 链球菌。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_0be65c0d2ab3",
+        "name": "葡萄球菌",
+        "definition": "3. 葡萄球菌（staphylococcus） 细菌细胞在多个不同平面分裂后，多个菌体不规则堆聚在一起成 葡萄串状，如金黄色葡萄球菌、表皮葡萄球菌。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_a4e0afb6ed90",
+        "name": "不同杆菌",
+        "definition": "二、 杆菌 不同杆菌（bacillus）的大小、长短、粗细差别较大。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_391e42ed4f64",
+        "name": "杆菌",
+        "definition": "在营养丰富的人工培养条件下，细菌呈浮游状态，按其外形主要分为球菌、杆菌和螺形菌三 类（图1-1）。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_b68537a97bef",
+        "name": "称为棒状杆菌",
+        "definition": "有的杆菌末端膨大成棒状，称为棒状杆菌（corynebacterium）；有的菌体短小，近于椭圆 形，称为球杆菌（coccobacillus）；有的常呈分枝生长趋势，称为分枝杆菌（mycobacterium）；有的末端常 呈分叉状，称为双歧杆菌（bifidobacterium）。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构学习目标",
+        "page": 28,
+        "frequency": 1,
+        "source_ids": [
+          "ch_002"
+        ]
+      },
+      {
+        "id": "node_988df5119d89",
+        "name": "第一章 细菌的形态与结构",
+        "definition": "第一章 细菌的形态与结构 1. 肽聚糖（peptidoglycan） 是细菌细胞壁的基 本组分，为菌细胞所特有，又称为黏肽（mucopeptide） 或胞壁质（murein）。G + 菌的肽聚糖由聚糖骨架 （backbone）、四肽侧链（tetrapeptide side chain）和 五肽交联桥（peptide cross-bridge）三部分组成， G - 菌的肽聚糖由聚糖骨架和四肽侧链两部分组成 （图1-4）。 聚糖骨架由N- 乙酰葡萄糖胺（N-acetyl gluc",
+        "category": "章节",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构",
+        "page": 30,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_130acb1c2131",
+        "name": "肽聚糖",
+        "definition": "第一章 细菌的形态与结构 1. 肽聚糖（peptidoglycan） 是细菌细胞壁的基 本组分，为菌细胞所特有，又称为黏肽（mucopeptide） 或胞壁质（murein）。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构",
+        "page": 30,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_c5854ae71ccd",
+        "name": "四肽侧链",
+        "definition": "G + 菌的肽聚糖由聚糖骨架 （backbone）、四肽侧链（tetrapeptide side chain）和 五肽交联桥（peptide cross-bridge）三部分组成， G - 菌的肽聚糖由聚糖骨架和四肽侧链两部分组成 （图1-4）。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构",
+        "page": 30,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_d3b6bfb9e38e",
+        "name": "乙酰胞壁酸",
+        "definition": "聚糖骨架由N- 乙酰葡萄糖胺（N-acetyl glucos­ amine）和N- 乙酰胞壁酸（N-acetylmuramic acid）交 替间隔排列，经β-1,4 糖苷键联结而成。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构",
+        "page": 30,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_dc26ec7899d1",
+        "name": "大多数还含有大量的磷壁酸",
+        "definition": "2. 革兰氏阳性菌细胞壁特殊组分 G + 菌的细胞壁较厚（20～80nm），除含有15～50 层肽聚糖结 构外，大多数还含有大量的磷壁酸（teichoic acid），少数为磷壁醛酸（teichuronic acid），约占细胞壁干重 的50%（图1-5）。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第一章 细菌的形态与结构",
+        "page": 30,
+        "frequency": 1,
+        "source_ids": [
+          "ch_003"
+        ]
+      },
+      {
+        "id": "node_01824df5d3d1",
+        "name": "第二章 细菌的生理学习目标",
+        "definition": "第二章 细菌的生理 学习目标 1. 描述细菌生长繁殖的基本条件、方式与生长曲线。 2. 阐述与医学有关的细菌的合成代谢与分解代谢的医学意义。 3. 复述对氧需求进行的细菌分类。 4. 列举常见细菌培养基及培养方法。 5. 描述细菌的分类及命名体系。 细菌的生理活动包括摄取营养物质和合成所需物质，进行新陈代谢及生长繁殖。整个生理活动 的中心是新陈代谢，细菌的代谢活动十分活跃而且多样化，繁殖迅速是其显著的特点。研究细菌的生 理活动不仅是基础生物学科的范畴，而且与医学、环境卫生、工",
+        "category": "章节",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_3a964f26d577",
+        "name": "细菌的生理学习目标",
+        "definition": "来自教材章节的知识点：细菌的生理学习目标。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_503dc8ef92fa",
+        "name": "体微生物群中的益生菌",
+        "definition": "例如，对于人 体微生物群中的益生菌（probiotics），如何促进其生长繁殖和产生有益的代谢产物；对于致病菌，了解 其代谢与致病的关系，设计和寻找有关诊断和防治的方法；还可以研究如何利用细菌的代谢来净化环 境，开发极端环境的微生物资源等。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_aae44f6618ca",
+        "name": "细菌的理化性状",
+        "definition": "第一节 | 细菌的理化性状 一、 细菌的化学组成 细菌细胞和其他生物细胞相似，含有多种化学成分，包括水、无机盐、蛋白质、糖类、脂质和核酸 等。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_05db2de094c9",
+        "name": "细菌的物理性状",
+        "definition": "二、 细菌的物理性状 1. 光学性质 细菌为半透明体。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_966b7389aaca",
+        "name": "整个生理活动",
+        "definition": "整个生理活动 的中心是新陈代谢，细菌的代谢活动十分活跃而且多样化，繁殖迅速是其显著的特点。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_9788f0f6c8fa",
+        "name": "研究细菌的生",
+        "definition": "研究细菌的生 理活动不仅是基础生物学科的范畴，而且与医学、环境卫生、工农业生产等都密切相关。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理学习目标",
+        "page": 41,
+        "frequency": 1,
+        "source_ids": [
+          "ch_004"
+        ]
+      },
+      {
+        "id": "node_da3e648af4b0",
+        "name": "第二章 细菌的生理",
+        "definition": "第二章 细菌的生理 4. 半透性 细菌的细胞壁和细胞膜都有半透性，允许水及部分小分子物质通过，有利于吸收营 养和排出代谢产物。 5. 渗透压 细菌体内含有高浓度的营养物质和无机盐，一般G + 菌的渗透压高达20～25 个大气 压，G - 菌为5～6 个大气压。细菌所处一般环境相对低渗，但因有坚韧细胞壁的保护不会崩裂。若处 于比菌体内渗透压更高的环境中，菌体内水分溢出，胞质浓缩，细菌就不能生长繁殖。 第二节 | 细菌的营养与生长繁殖 一、 细菌的营养物质 充足的营养物质可以为细",
+        "category": "章节",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": []
+      },
+      {
+        "id": "node_3d29d6abd297",
+        "name": "细菌的生理",
+        "definition": "第二章 细菌的生理 4. 半透性 细菌的细胞壁和细胞膜都有半透性，允许水及部分小分子物质通过，有利于吸收营 养和排出代谢产物。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_bbd0a86551a0",
+        "name": "细菌的生长还需要一些自身不能合成的生长因子",
+        "definition": "5. 生长因子 许多细菌的生长还需要一些自身不能合成的生长因子（growth factor）。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_9da23e35cce1",
+        "name": "而将营养物转送给细胞膜上的ATP结合型载体",
+        "definition": "营养物与特异性结合蛋白 形成复合物后，引起后者构型的改变，继而将营养物转送给细胞膜上的ATP结合型载体（ATP-binding cassette-type carrier），导致ATP 水解，提供的能量打开膜孔，使营养物质进入细胞内。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_baf1e7226613",
+        "name": "离子偶联转运",
+        "definition": "（2） 离子偶联转运（ion-coupled transport）：该系统利用膜内外两侧质子或离子浓度差产生的质子 动力（proton motive force）或钠动力（sodium motive force）作为驱使营养物质跨膜转移的能量。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_004d8b4131bf",
+        "name": "动力",
+        "definition": "1. 被动扩散 被动扩散指营养物质从浓度高向浓度低的一侧扩散，其驱动力是浓度梯度，不消 耗能量。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_e676f2368e70",
+        "name": "基团转移",
+        "definition": "二、 细菌摄取营养物质的机制 细菌摄取营养物质的机制包括被动扩散、主动转运和基团转移。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      },
+      {
+        "id": "node_adb90e8657e2",
+        "name": "自养菌",
+        "definition": "根据细菌所利用的能源 和碳源的不同，将细菌分为自养菌和异养菌两大营养类型。",
+        "category": "核心概念",
+        "textbook_id": "book_0070a22f",
+        "textbook_title": "04_医学微生物学",
+        "chapter": "第二章 细菌的生理",
+        "page": 42,
+        "frequency": 1,
+        "source_ids": [
+          "ch_005"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "node_b2fd917fb8cb",
+        "target": "node_a0c4dc0a1867",
+        "relation_type": "contains",
+        "description": "《01_局部解剖学》包含章节“前言/目录”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_40c87c24e3d2",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“图书在版编目”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_538e7de2a9bf",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“第五轮全国高等医学院校”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_013d7ef051d6",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“的颈部淋巴引”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_e99031edc32c",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“局部解剖学的学习目的和学习方法”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_35020a0469b8",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“人体的分部、层次和基本结构”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_c473c6e29dd2",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“解剖器械的准备和使用”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_f38e13e29cbe",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“解剖操作的基本技术和方法”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_1c231a03b8ff",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“解剖操作的具体要求”。"
+      },
+      {
+        "source": "node_b2fd917fb8cb",
+        "target": "node_6ee47b426947",
+        "relation_type": "contains",
+        "description": "《01_局部解剖学》包含章节“第三章 胸部\b”。"
+      },
+      {
+        "source": "node_a0c4dc0a1867",
+        "target": "node_6ee47b426947",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_f01c687ee6dd",
+        "relation_type": "contains",
+        "description": "“第三章 胸部\b”包含知识点“胸部\b”。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_20d143e99598",
+        "relation_type": "contains",
+        "description": "“第三章 胸部\b”包含知识点“境界与分区”。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_330542b8ae8d",
+        "relation_type": "contains",
+        "description": "“第三章 胸部\b”包含知识点“表面解剖”。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_2430136cf37b",
+        "relation_type": "contains",
+        "description": "“第三章 胸部\b”包含知识点“浅层结构”。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_fdd36d7a80be",
+        "relation_type": "contains",
+        "description": "“第三章 胸部\b”包含知识点“位置与分部”。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_c0df4943c753",
+        "relation_type": "contains",
+        "description": "“第三章 胸部\b”包含知识点“胸膜和胸膜腔”。"
+      },
+      {
+        "source": "node_b2fd917fb8cb",
+        "target": "node_a96626d34639",
+        "relation_type": "contains",
+        "description": "《01_局部解剖学》包含章节“第四章 腹部\b”。"
+      },
+      {
+        "source": "node_6ee47b426947",
+        "target": "node_a96626d34639",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_a96626d34639",
+        "target": "node_f1080543282a",
+        "relation_type": "contains",
+        "description": "“第四章 腹部\b”包含知识点“腹前外侧壁”。"
+      },
+      {
+        "source": "node_a96626d34639",
+        "target": "node_6221462f90be",
+        "relation_type": "contains",
+        "description": "“第四章 腹部\b”包含知识点“局部结构”。"
+      },
+      {
+        "source": "node_a96626d34639",
+        "target": "node_5b7ca8639898",
+        "relation_type": "contains",
+        "description": "“第四章 腹部\b”包含知识点“睾丸下降与腹股沟疝的关系”。"
+      },
+      {
+        "source": "node_a96626d34639",
+        "target": "node_d57c38aede5d",
+        "relation_type": "contains",
+        "description": "“第四章 腹部\b”包含知识点“结肠上区”。"
+      },
+      {
+        "source": "node_a96626d34639",
+        "target": "node_59bb94177c54",
+        "relation_type": "contains",
+        "description": "“第四章 腹部\b”包含知识点“食管腹部”。"
+      },
+      {
+        "source": "node_b2fd917fb8cb",
+        "target": "node_864dd24318e9",
+        "relation_type": "contains",
+        "description": "《01_局部解剖学》包含章节“第五章 盆部与会阴\b”。"
+      },
+      {
+        "source": "node_a96626d34639",
+        "target": "node_864dd24318e9",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_d537db9c36c1",
+        "relation_type": "contains",
+        "description": "“第五章 盆部与会阴\b”包含知识点“盆部与会阴\b”。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_ceb5a784d30c",
+        "relation_type": "contains",
+        "description": "“第五章 盆部与会阴\b”包含知识点“骨盆整体观”。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_5229daec7480",
+        "relation_type": "contains",
+        "description": "“第五章 盆部与会阴\b”包含知识点“盆壁肌”。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_eb60925e1281",
+        "relation_type": "contains",
+        "description": "“第五章 盆部与会阴\b”包含知识点“盆筋膜及其间隙”。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_5dd68fade30c",
+        "relation_type": "contains",
+        "description": "“第五章 盆部与会阴\b”包含知识点“盆部的血管、淋巴引流和神经”。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_0b1b9b4e1642",
+        "relation_type": "contains",
+        "description": "“第五章 盆部与会阴\b”包含知识点“盆腔内的腹膜配布”。"
+      },
+      {
+        "source": "node_b2fd917fb8cb",
+        "target": "node_e36ed4bde859",
+        "relation_type": "contains",
+        "description": "《01_局部解剖学》包含章节“第六章 脊柱区\b”。"
+      },
+      {
+        "source": "node_864dd24318e9",
+        "target": "node_e36ed4bde859",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_e36ed4bde859",
+        "target": "node_804d99e43c6f",
+        "relation_type": "contains",
+        "description": "“第六章 脊柱区\b”包含知识点“脊柱区\b”。"
+      },
+      {
+        "source": "node_e36ed4bde859",
+        "target": "node_d2ce61f8763f",
+        "relation_type": "contains",
+        "description": "“第六章 脊柱区\b”包含知识点“深筋膜”。"
+      },
+      {
+        "source": "node_e36ed4bde859",
+        "target": "node_259fd537da23",
+        "relation_type": "contains",
+        "description": "“第六章 脊柱区\b”包含知识点“深部血管和神经”。"
+      },
+      {
+        "source": "node_e36ed4bde859",
+        "target": "node_55b53c30d183",
+        "relation_type": "contains",
+        "description": "“第六章 脊柱区\b”包含知识点“椎管内容物”。"
+      },
+      {
+        "source": "node_45ec89271c55",
+        "target": "node_195c6f2fd431",
+        "relation_type": "contains",
+        "description": "《02_组织学与胚胎学》包含章节“全文”。"
+      },
+      {
+        "source": "node_195c6f2fd431",
+        "target": "node_eb2293f5f3af",
+        "relation_type": "contains",
+        "description": "“全文”包含知识点“组织学”。"
+      },
+      {
+        "source": "node_195c6f2fd431",
+        "target": "node_141221d568c9",
+        "relation_type": "contains",
+        "description": "“全文”包含知识点“称为细胞外基质”。"
+      },
+      {
+        "source": "node_195c6f2fd431",
+        "target": "node_eec4f19f56b2",
+        "relation_type": "contains",
+        "description": "“全文”包含知识点“参与构成细胞生存的微环境”。"
+      },
+      {
+        "source": "node_195c6f2fd431",
+        "target": "node_c54fd9900b93",
+        "relation_type": "contains",
+        "description": "“全文”包含知识点“统称为基本组织”。"
+      },
+      {
+        "source": "node_195c6f2fd431",
+        "target": "node_5cbf9a49298e",
+        "relation_type": "contains",
+        "description": "“全文”包含知识点“器官”。"
+      },
+      {
+        "source": "node_b15bb2e3b42d",
+        "target": "node_1808ba6a1b26",
+        "relation_type": "contains",
+        "description": "《04_医学微生物学》包含章节“前言/目录”。"
+      },
+      {
+        "source": "node_1808ba6a1b26",
+        "target": "node_b213581e3178",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“微生物”。"
+      },
+      {
+        "source": "node_1808ba6a1b26",
+        "target": "node_5112d687a733",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“真核细胞型微生物”。"
+      },
+      {
+        "source": "node_1808ba6a1b26",
+        "target": "node_c3ab7490dd54",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“真菌”。"
+      },
+      {
+        "source": "node_1808ba6a1b26",
+        "target": "node_5695b231cb3a",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“原核细胞型微生物”。"
+      },
+      {
+        "source": "node_1808ba6a1b26",
+        "target": "node_da2554815c94",
+        "relation_type": "contains",
+        "description": "“前言/目录”包含知识点“这类微生物可分为古菌”。"
+      },
+      {
+        "source": "node_b15bb2e3b42d",
+        "target": "node_6d8276c01901",
+        "relation_type": "contains",
+        "description": "《04_医学微生物学》包含章节“第一章 细菌的形态与结构学习目标”。"
+      },
+      {
+        "source": "node_1808ba6a1b26",
+        "target": "node_6d8276c01901",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_41a7055af236",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“细菌的形态与结构学习目标”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_95561fd18e7e",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“多数球菌”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_d2a07ae1c658",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“双球菌”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_9a687d64a6f5",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“链球菌”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_0be65c0d2ab3",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“葡萄球菌”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_a4e0afb6ed90",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“不同杆菌”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_391e42ed4f64",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“杆菌”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_b68537a97bef",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构学习目标”包含知识点“称为棒状杆菌”。"
+      },
+      {
+        "source": "node_b15bb2e3b42d",
+        "target": "node_988df5119d89",
+        "relation_type": "contains",
+        "description": "《04_医学微生物学》包含章节“第一章 细菌的形态与结构”。"
+      },
+      {
+        "source": "node_6d8276c01901",
+        "target": "node_988df5119d89",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_988df5119d89",
+        "target": "node_130acb1c2131",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构”包含知识点“肽聚糖”。"
+      },
+      {
+        "source": "node_988df5119d89",
+        "target": "node_c5854ae71ccd",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构”包含知识点“四肽侧链”。"
+      },
+      {
+        "source": "node_988df5119d89",
+        "target": "node_d3b6bfb9e38e",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构”包含知识点“乙酰胞壁酸”。"
+      },
+      {
+        "source": "node_988df5119d89",
+        "target": "node_dc26ec7899d1",
+        "relation_type": "contains",
+        "description": "“第一章 细菌的形态与结构”包含知识点“大多数还含有大量的磷壁酸”。"
+      },
+      {
+        "source": "node_b15bb2e3b42d",
+        "target": "node_01824df5d3d1",
+        "relation_type": "contains",
+        "description": "《04_医学微生物学》包含章节“第二章 细菌的生理学习目标”。"
+      },
+      {
+        "source": "node_988df5119d89",
+        "target": "node_01824df5d3d1",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_3a964f26d577",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理学习目标”包含知识点“细菌的生理学习目标”。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_503dc8ef92fa",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理学习目标”包含知识点“体微生物群中的益生菌”。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_aae44f6618ca",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理学习目标”包含知识点“细菌的理化性状”。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_05db2de094c9",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理学习目标”包含知识点“细菌的物理性状”。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_966b7389aaca",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理学习目标”包含知识点“整个生理活动”。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_9788f0f6c8fa",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理学习目标”包含知识点“研究细菌的生”。"
+      },
+      {
+        "source": "node_b15bb2e3b42d",
+        "target": "node_da3e648af4b0",
+        "relation_type": "contains",
+        "description": "《04_医学微生物学》包含章节“第二章 细菌的生理”。"
+      },
+      {
+        "source": "node_01824df5d3d1",
+        "target": "node_da3e648af4b0",
+        "relation_type": "prerequisite",
+        "description": "教材章节顺序形成默认学习前置关系。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_3d29d6abd297",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“细菌的生理”。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_bbd0a86551a0",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“细菌的生长还需要一些自身不能合成的生长因子”。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_9da23e35cce1",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“而将营养物转送给细胞膜上的ATP结合型载体”。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_baf1e7226613",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“离子偶联转运”。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_004d8b4131bf",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“动力”。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_e676f2368e70",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“基团转移”。"
+      },
+      {
+        "source": "node_da3e648af4b0",
+        "target": "node_adb90e8657e2",
+        "relation_type": "contains",
+        "description": "“第二章 细菌的生理”包含知识点“自养菌”。"
+      },
+      {
+        "source": "node_40c87c24e3d2",
+        "target": "node_538e7de2a9bf",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_538e7de2a9bf",
+        "target": "node_013d7ef051d6",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_013d7ef051d6",
+        "target": "node_e99031edc32c",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_e99031edc32c",
+        "target": "node_35020a0469b8",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_35020a0469b8",
+        "target": "node_c473c6e29dd2",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_c473c6e29dd2",
+        "target": "node_f38e13e29cbe",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_f38e13e29cbe",
+        "target": "node_1c231a03b8ff",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_f01c687ee6dd",
+        "target": "node_20d143e99598",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_20d143e99598",
+        "target": "node_330542b8ae8d",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_330542b8ae8d",
+        "target": "node_2430136cf37b",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_f1080543282a",
+        "target": "node_6221462f90be",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_6221462f90be",
+        "target": "node_5b7ca8639898",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_5b7ca8639898",
+        "target": "node_d57c38aede5d",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_d57c38aede5d",
+        "target": "node_59bb94177c54",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_ceb5a784d30c",
+        "target": "node_5229daec7480",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_5229daec7480",
+        "target": "node_eb60925e1281",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_eb60925e1281",
+        "target": "node_5dd68fade30c",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_5dd68fade30c",
+        "target": "node_0b1b9b4e1642",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_d2ce61f8763f",
+        "target": "node_259fd537da23",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_259fd537da23",
+        "target": "node_55b53c30d183",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_eb2293f5f3af",
+        "target": "node_141221d568c9",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_c54fd9900b93",
+        "target": "node_5cbf9a49298e",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_b213581e3178",
+        "target": "node_5112d687a733",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_5112d687a733",
+        "target": "node_c3ab7490dd54",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_c3ab7490dd54",
+        "target": "node_5695b231cb3a",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_5695b231cb3a",
+        "target": "node_da2554815c94",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_41a7055af236",
+        "target": "node_95561fd18e7e",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_95561fd18e7e",
+        "target": "node_d2a07ae1c658",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_d2a07ae1c658",
+        "target": "node_9a687d64a6f5",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_9a687d64a6f5",
+        "target": "node_0be65c0d2ab3",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_0be65c0d2ab3",
+        "target": "node_a4e0afb6ed90",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_a4e0afb6ed90",
+        "target": "node_391e42ed4f64",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_391e42ed4f64",
+        "target": "node_b68537a97bef",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_d3b6bfb9e38e",
+        "target": "node_dc26ec7899d1",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_3a964f26d577",
+        "target": "node_503dc8ef92fa",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_503dc8ef92fa",
+        "target": "node_aae44f6618ca",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_05db2de094c9",
+        "target": "node_966b7389aaca",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_3d29d6abd297",
+        "target": "node_bbd0a86551a0",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_bbd0a86551a0",
+        "target": "node_9da23e35cce1",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_9da23e35cce1",
+        "target": "node_baf1e7226613",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_baf1e7226613",
+        "target": "node_004d8b4131bf",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      },
+      {
+        "source": "node_e676f2368e70",
+        "target": "node_adb90e8657e2",
+        "relation_type": "parallel",
+        "description": "同一章节中并列出现的知识点。"
+      }
+    ]
+  }
+}
