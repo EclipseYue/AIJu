@@ -9,10 +9,11 @@ export default function App() {
   return (
     <main className="shell">
       <aside className="sidebar">
-        <div>
-          <p className="eyebrow">AIJu</p>
-          <h1>学科知识整合智能体</h1>
-        </div>
+        <header className="brand">
+          <span className="brand-en">AIJu</span>
+          <span className="brand-zh">爱聚学</span>
+        </header>
+        <p className="brand-subtitle">学科知识整合智能体</p>
         <BookList selectedIds={selectedTextbookIds} onSelectedIdsChange={setSelectedTextbookIds} />
       </aside>
       <section className="graph-region">
