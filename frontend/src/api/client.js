@@ -1,4 +1,6 @@
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000'
+// In production (same-origin deployment), VITE_API_BASE is empty.
+// In local dev, it's http://localhost:8000.
+const API_BASE = import.meta.env.VITE_API_BASE ?? 'http://localhost:8000'
 
 export async function apiGet(path) {
   const response = await fetch(`${API_BASE}${path}`)

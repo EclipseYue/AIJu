@@ -1,5 +1,8 @@
+from pathlib import Path
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from app.api import graph, integration, rag, report, textbooks
 from app.core.config import settings
@@ -29,3 +32,10 @@ app.include_router(report.router, prefix="/api/report", tags=["report"])
 @app.get("/health")
 async def health() -> dict[str, str]:
     return {"status": "ok", "service": "AIJu"}
+
+
+# ── Production: serve built frontend from dist/ at repo root ──
+# backend/app/main.py → parents[0]=app, [1]=backend, [2]=repo_root
+_DIST_DIR = Path(__file__).resolve().parents[2] / "dist"
+if _DIST_DIR.exists():
+    app.mount("/", StaticFiles(directory=str(_DIST_DIR), html=True), name="frontend")
