@@ -11,7 +11,6 @@ ENV NODE_OPTIONS="--max-old-space-size=512"
 COPY package.json package-lock.json ./
 RUN npm install --prefer-offline --no-audit --no-fund
 COPY frontend/ ./frontend/
-COPY vite.config.js ./ 2>/dev/null || true
 
 ENV VITE_API_BASE=
 RUN npm run build
