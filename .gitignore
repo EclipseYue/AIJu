@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# Environment and local runtime state
+.env
+.env.local
+data/uploads/
+data/raw/
+data/textbooks/
+data/chroma/
+data/faiss/
+data/cache/
+data/*.sqlite
+*.db
+
+# Textbook and source PDF data: never push competition data to GitHub
+*.pdf
+*.PDF
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
