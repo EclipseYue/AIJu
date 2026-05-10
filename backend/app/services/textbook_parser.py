@@ -173,6 +173,10 @@ class TextbookParserService:
             return self._parse_markdown(path, payload.chapter_pattern)
         if suffix == ".txt":
             return self._parse_plain_text(path, payload.chapter_pattern)
+        if suffix == ".docx":
+            return self._parse_docx(path, payload.chapter_pattern)
+        if suffix in {".xlsx", ".xls"}:
+            return self._parse_excel(path, payload.chapter_pattern)
         raise ValueError(f"Unsupported file format for parser scaffold: {suffix}")
 
     def _parse_pdf(self, path: Path, chapter_pattern: str) -> dict[str, Any]:
@@ -204,6 +208,27 @@ class TextbookParserService:
 
     def _parse_plain_text(self, path: Path, chapter_pattern: str) -> dict[str, Any]:
         text = path.read_text(encoding="utf-8", errors="ignore")
+        chapters = self._chapters_from_text(text, chapter_pattern, markdown=False)
+        return {"total_pages": None, "chapters": chapters}
+
+    def _parse_docx(self, path: Path, chapter_pattern: str) -> dict[str, Any]:
+        from docx import Document
+
+        doc = Document(str(path))
+        paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
+        text = "\n".join(paragraphs)
+        chapters = self._chapters_from_text(text, chapter_pattern, markdown=False)
+        return {"total_pages": None, "chapters": chapters}
+
+    def _parse_excel(self, path: Path, chapter_pattern: str) -> dict[str, Any]:
+        import pandas as pd
+
+        sheets = pd.read_excel(str(path), sheet_name=None)
+        parts: list[str] = []
+        for sheet_name, df in sheets.items():
+            if not df.empty:
+                parts.append(f"# {sheet_name}\n{df.to_csv(index=False)}")
+        text = "\n".join(parts)
         chapters = self._chapters_from_text(text, chapter_pattern, markdown=False)
         return {"total_pages": None, "chapters": chapters}
 

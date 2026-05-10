@@ -602,6 +602,35 @@ h3 {
   color: var(--ink-soft);
 }
 
+/* ── Graph Tooltip ── */
+
+.graph-tooltip {
+  position: absolute;
+  z-index: 100;
+  pointer-events: none;
+  max-width: 240px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow-md);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.graph-tooltip strong {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: var(--ink);
+}
+
+.graph-tooltip span {
+  color: var(--ink-soft);
+}
+
 /* ── Panel Body ── */
 
 .panel-body {

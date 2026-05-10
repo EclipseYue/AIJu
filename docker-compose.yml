@@ -1,25 +1,23 @@
 services:
   backend:
-    image: python:3.11-slim
-    working_dir: /app
-    command: sh -c "pip install -r requirements.txt && uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000"
+    build: .
     ports:
       - "8000:8000"
     env_file:
       - .env
     volumes:
-      - ./:/app
-      - ../textbooks:/external_textbooks:ro
+      - ./backend/data:/app/backend/data
+      - ${TEXTBOOK_DATA_DIR:-./data/uploads}:/textbooks:ro
     environment:
-      TEXTBOOK_DATA_DIR: /external_textbooks
+      TEXTBOOK_DATA_DIR: /textbooks
 
   frontend:
-    image: node:20-alpine
-    working_dir: /app
-    command: sh -c "npm install && npm run dev:frontend -- --host 0.0.0.0"
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
     ports:
       - "5173:5173"
     volumes:
-      - ./:/app
+      - ./frontend/src:/app/frontend/src
     environment:
       VITE_API_BASE: http://localhost:8000

@@ -49,6 +49,7 @@ export function GraphCanvas({ selectedTextbookIds }) {
   const [search, setSearch] = useState('')
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
+  const [hoverInfo, setHoverInfo] = useState(null)
 
   const stats = useMemo(() => ({
     nodes: graph.nodes.length,
@@ -98,6 +99,18 @@ export function GraphCanvas({ selectedTextbookIds }) {
             color: '#0f3f3a',
             'font-weight': 700,
           },
+        },
+        {
+          selector: 'node[category = "机制"]',
+          style: { shape: 'roundrectangle' },
+        },
+        {
+          selector: 'node[category = "方法"]',
+          style: { shape: 'diamond' },
+        },
+        {
+          selector: 'node[category = "分类"]',
+          style: { shape: 'hexagon' },
         },
         {
           selector: 'edge',
@@ -154,6 +167,27 @@ export function GraphCanvas({ selectedTextbookIds }) {
     cyRef.current.on('tap', (event) => {
       if (event.target === cyRef.current) setSelectedNode(null)
     })
+
+    // Hover tooltip
+    cyRef.current.on('mouseover', 'node', (event) => {
+      const d = event.target.data()
+      setHoverInfo({
+        x: event.renderedPosition.x,
+        y: event.renderedPosition.y,
+        name: d.name,
+        def: (d.definition || '').slice(0, 60),
+      })
+    })
+    cyRef.current.on('mouseout', 'node', () => setHoverInfo(null))
+
+    // Double-click: highlight 1-hop neighborhood
+    cyRef.current.on('dblclick', 'node', (event) => {
+      cyRef.current.elements().removeClass('matched').addClass('faded')
+      const target = event.target
+      target.removeClass('faded').addClass('matched')
+      target.neighborhood().removeClass('faded')
+    })
+
     return () => cyRef.current?.destroy()
   }, [graph])
 
@@ -248,6 +282,15 @@ export function GraphCanvas({ selectedTextbookIds }) {
             <small>{selectedNode.textbook_title || '-'} / {selectedNode.chapter || '-'}</small>
             <small>页码：{selectedNode.page || '-'}</small>
           </aside>
+        )}
+        {hoverInfo && (
+          <div
+            className="graph-tooltip"
+            style={{ left: hoverInfo.x + 14, top: hoverInfo.y - 12 }}
+          >
+            <strong>{hoverInfo.name}</strong>
+            {hoverInfo.def && <span>{hoverInfo.def}{hoverInfo.def.length >= 60 ? '…' : ''}</span>}
+          </div>
         )}
       </div>
     </section>
